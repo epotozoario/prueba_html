@@ -1,0 +1,26 @@
+body {
+    margin:  10;
+  }
+
+h2{
+    background-color: rgb(94, 88, 134);
+    font-size:23pt;
+}
+#parrafo{
+    font-size:20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: red;
+}
+#prueba{
+    font-size:25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: lightcoral;
+}
+.resaltar{
+    background-color: yellow;
+    font-family: fantasy;
+}
+
+  

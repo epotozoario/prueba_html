@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes\icono.png" type="image/png" />
+    <title>La tienda de Calero</title>
+</head>
+
+<body>
+    <form action="action_page.php" method="get">
+        <label for="nombreCompleto" >Nombre completo</label>
+        <input type="text" id="nombreC" name="nombreC" placeholder="Nombres y
+       apellidos" required><br><br>
+        <label for="zapatoB">Zapato que no encontraste:</label>
+        <input type="text" id="zapatoab" name="zapatoab"><br><br>
+        <input type="radio" id="zapatoh" name="tzapato" value="hombre">
+        <label for="male">Hombre</label><br>
+        <input type="radio" id="zapatom" name="tzapato" value="mujer">
+        <label for="female">Mujer</label><br>
+        <input type="radio" id="zapaton" name="tzapato" value="nino">
+        <label for="other">Niño</label><br><br>
+        <input type="submit" value="Solicitar">
+
+        <h3 id="zapatillaHombre">seleccione marcas que usa</h3>
+       <input type="checkbox" id="nike" name="tzapato" >nike
+       <input type="checkbox" id="nike" name="tzapato" >adidas<br>
+       <input type="checkbox" id="nike" name="tzapato" >reebook
+
+       <h3 id="zapatillaHombre">seleccione ciudades</h3>
+       <select name="ciudad" id="ciudad">
+        <option value="1">Bucaramanga</option>
+        <option value="2">Bogota</option>
+        <option value="3"> Medellin</option>
+       </select>
+       </form>
+</body>
+
+</html>
